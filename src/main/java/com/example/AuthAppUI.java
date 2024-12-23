@@ -8,7 +8,7 @@ public class AuthAppUI {
         SwingUtilities.invokeLater(() -> new AuthAppUI().createAndShowUI());
     }
 
-    private void createAndShowUI() {//
+    private void createAndShowUI() {///
         // Frame utama
         JFrame frame = new JFrame("Authentication App");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
